@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+html, body {
+    height: 100%;
+    margin: 0; 
+    padding: 0; 
+}
+
+body::before {
+    content: ''; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../img/c.gif'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    z-index: -1; 
+}
+
+body::after {
+    content: ''; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9); 
+    z-index: -1; 
+}
+
+header{
+    padding:10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+
+   
+}
+.carousel {
+    z-index: 5;
+    margin-top: 100px;  
+}
+
+.modal-body p{
+    text-align: center;
+    font-family: "Roboto", serif;
+}
+.nav-link{
+    color: white;
+    padding-right: 48px;
+    text-align: center;
+}
+.navbar {
+    backdrop-filter: blur(60px);
+  
+}
+strong{
+    margin: 8px;
+}
+#capa{
+    max-height: 100px; 
+    object-fit: cover; 
+    max-width: 90px; 
+    margin: 0px 80px 0px 20px;
+}
+
+.card {
+    border-radius: 16px; 
+    height: auto;
+    width: 68%;
+    margin: auto;
+    
+}
+.section-spacing{
+    margin-bottom: 20px; 
+    padding-top: 40px;   
+    padding-bottom: 30px; 
+}
+section h2 {
+    color: white;
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: "Roboto", serif;
+
+}
+.custom-row {
+    margin-left: -4px; 
+    margin-right: -4px; 
+    
+}
+
+.custom-column {
+    padding-left: 3px; 
+    padding-right: 3px; 
+}
+
+.card-img-top {
+    border-bottom-left-radius: 15px; 
+    border-bottom-right-radius: 15px; 
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.932); 
+    cursor: pointer; 
+    width: 100%; 
+}
+.card-img-top:hover {
+    transform: scale(1.10); 
+    background-color: rgba(0, 0, 0, 0.2); 
+}
+.lista{
+    margin-left: 32px;
+}
+
+#quemSomos{
+    margin-top: 11%;
+}
+#contato  h2 {
+    color: black;
+    margin: 15px 0;
+}
+form{ 
+    margin-top: 11%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 25px;
+    width: 65%;
+}
+form > textarea{
+    resize: none;
+    height: 120px;
+}
+
+footer{
+    background-color: black;
+    margin-top: 30px;
+    padding: 60px 0;
+}
+#rodape{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+.container-flex {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+}
+.container-flex li {
+    margin-left: 15px; 
+}
+
+.container-flex li a {
+    text-decoration: none; 
+}
+.container-flex img{
+    width: 35px;
+    height: auto;
+}
+
+
